@@ -58,4 +58,25 @@ public class cwh_25_practice_set_5 {
 //        System.out.println(sum);
 
     }
+    // "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        for(int i = 1;i<=3;i++){
+            for(int j = i;j<=3;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        for(int i=1;i<=3;i++){
+         for(int j=2;j>=0;j--){
+             System.out.print("_*");
+         }
+            System.out.println();
+        }
+    }
+}
 }
